@@ -1,0 +1,93 @@
+/* ==============================================================
+*  共通　レイアウト
+* ============================================================ */
+body {
+  font-family: "ヒラギノ角ゴシック", "Hiragino Sans", "ヒラギノ角ゴシック",
+    "Hiragino Sans", YuGothic, "Yu Gothic", sans-serif;
+}
+
+p {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+section {
+  text-align: center;
+}
+
+.category,
+.about,
+.line,
+.news-top {
+  h1 {
+    position: relative;
+    display: inline-block;
+    color: $color-bule;
+    margin-bottom: 10px;
+  }
+}
+
+.gallery {
+	h1 {
+    position: relative;
+    display: inline-block;
+    color: $color-bule;
+    margin-bottom: 100px;
+  }
+}
+
+.line {
+	h1 {
+		position: relative;
+		display: inline-block;
+		color: $color-bule;
+		margin-bottom: 60px;
+	  }
+}
+
+.category {
+  h2 {
+    font-weight: normal;
+  }
+}
+
+.home-top {
+  h2 {
+    position: relative;
+    display: inline-block;
+    color: $color-bule;
+    // margin-top: 10px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -12px;
+      display: inline-block;
+      width: 40px;
+      height: 3px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background-color: $color-bule;
+      border-radius: 2px;
+    }
+  }
+}
+
+a,
+span {
+  cursor: pointer;
+}
+
+
