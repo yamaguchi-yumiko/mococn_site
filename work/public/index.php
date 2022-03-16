@@ -68,16 +68,9 @@
 		<h2>News</h2>
 		<div class="news-wrap">
 			<div class="news-first">
-				<p>ritmarus&nbsp;x&nbsp;mococon&nbsp;Exhibition<br>Collaboration&nbsp;Workbr<br>『FACE&nbsp;-&nbsp;BACK』展</p>
-				<p>2021年11月23日(火・祝)〜30日まで<br>OPEN&nbsp;12:00&nbsp;-&nbsp;21:00<br>※25日(木)はお休み、在店日はSNS等情報をご確認ください。</p>
-				<p></p>
-				<p>COFFEE&nbsp;ritmos</p>
-				<p>東京都八王子市子安町4-10-10 松屋ビル1F</p>
-				<p>Tel.&nbsp;042-686-1670</p>
-				<div class="event_dm">
-				<img src="common/img/ritmos_expo.jpg" alt="イベントDM前">
-				<img src="common/img/ritmos_expo_FACE.jpg" alt="イベントDM後">
-				</div>
+				<p>■■グランスタ東京「TEYNEY POP UP SHOP！」■■</p>
+				<p>〔開催日時〕2022年3月21日(月祝)〜3月27日(日)&nbsp;月～金 10:00-21:30 土・日・祝 10:00-21:00</p>
+				<p>〔営業時間は変更になる場合があります会場〕東京都千代田区丸の内1-9-1 東京駅構内</p>
 			</div>
 			<div class="arrow-content"><a href="news.php" target="_blank">more</a></div>
 		</div>
