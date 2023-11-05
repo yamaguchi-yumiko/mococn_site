@@ -33,19 +33,6 @@
 			</article>
 		</div>
 	</section>
-	<section class="index-section pickup fadein">
-		<h2>Pickup</h2>
-		<div>
-			<ul class="slider">
-				<li><img src="common/img/IMG_5689.jpg" alt="ピックアップ商品"></li>
-				<li><img src="common/img/IMG_8120.JPG" alt="ピックアップ商品"></li>
-				<li><img src="common/img/IMG_8129.JPG" alt="ピックアップ商品"></li>
-				<li><img src="common/img/IMG_8114.JPG" alt="ピックアップ商品"></li>
-				<li><img src="common/img/IMG_8134.JPG" alt="ピックアップ商品"></li>
-				<li><img src="common/img/IMG_8115.JPG" alt="ピックアップ商品"></li>
-			</ul>
-		</div>
-	</section>
 	<section class="index-section about-wrapper fadein">
 		<h2>About</h2>
 		<div class="about-brand">
@@ -79,34 +66,6 @@
 <?php require_once('footer.php'); ?>
 </body>
 <script>
-	//ピックアップのスライダー
-	$('.slider').slick({
-		centerMode: true,
-		centerPadding: '60px',
-		slidesToShow: 1,
-		autoplay: true,
-		autoplaySpeed: 2000,
-		responsive: [{
-				breakpoint: 768,
-				settings: {
-					centerMode: true,
-					centerPadding: '40px',
-					slidesToShow: 1
-				}
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					centerMode: true,
-					centerPadding: '30px',
-					slidesToShow: 1
-				}
-			}
-		]
-	});
-	$('#accordion').on('click', function() {
-		$('#accordion-content').slideToggle();
-	});
 </script>
 
 </html>
