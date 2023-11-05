@@ -5,8 +5,21 @@
 	</section>
 	<section class="index-section concept">
 		<h2>Concept</h2>
-		<p>Wool&nbsp;Natural&nbsp;Cool&Cute</p>
-		<p>かわいいだけじゃないシックな雑貨をハンドメイドする<br>羊毛フィルトハンドメイド専門店[mococon]</p>
+		<div class="concept-brand">
+			<div class="concept-top">
+				<div class="concept-history">
+					<div>
+						<p>Wool&Natural,WA</p>
+						<p>
+						羊毛フェルトの歴史は古く、その始まりは紀元前とも言われています。</p>
+						<p>その製法はフワフワかわいいものから、カチッと固く押し固めきちんとしたものまで形を</p>
+						<p>自由に変えられる優れた素材です。</p>
+						<p>自然の風合いを生かし、時には草木染めから施し制作しています。</p>
+						<a href="about.php" class="button"><span>VIEW MORE</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section class="index-section fadein">
 		<h2>Category</h2>
@@ -31,24 +44,6 @@
 				<figure><a href="Animals.php"><img src="common/img/403904_o.jpg" alt="その他"></a></figure>
 				<h3>Animals</h3>
 			</article>
-		</div>
-	</section>
-	<section class="index-section about-wrapper fadein">
-		<h2>About</h2>
-		<div class="about-brand">
-			<div class="about-top">
-				<img src="common/img/top_tree.gif" alt="モコのツリー画像">
-				<div class="about-history">
-					<div>
-						<p>what is mococon?</p>
-						<p> mococon（モココン）とは<br>
-							指の形から生まれた不思議生物<br>オリジナルマスコット！</p>
-						<p>羊毛フィルトの特徴を活かしてほわほわ感のある<br>可愛いらしいモココン</p>
-						<p>他にも、羊毛フィルトを使ったアクセサリー<br>雑貨などの作品もございます！</p>
-						<a href="about.php" class="button"><span>VIEW MORE</span></a>
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
 	<section class="index-section news fadein">

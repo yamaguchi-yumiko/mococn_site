@@ -3,6 +3,18 @@
 <main class="Original-Mascot-content category">
 	<section class="category-section">
 		<h1>Original&nbsp;Mascot</h1>
+		<div class="original-mascot">
+			<div class="original-mascot-top">
+				<img src="common/img/top_tree.gif" alt="モコのツリー画像">
+				<div class="original-mascot-text">
+					<div>
+						<p>what is mococon?</p>
+						<p> mococon（モココン）とは<br>
+							指の形から生まれた不思議生物<br>オリジナルマスコットです。</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="items">
 			<div class="items-text">
 				<p>Moco's&nbsp;pin&nbsp;batch</p>
@@ -31,4 +43,5 @@
 		$('#accordion-content').slideToggle();
 	});
 </script>
+
 </html>

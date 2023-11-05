@@ -10,7 +10,7 @@
 	<meta name="description" content="羊毛フェルト、ハンドメイド雑貨[mococon]。羊毛フェルトを中心にナチュラル素材のアイテム作りをめざしています。作品紹介ページ、オンラインショップ。オリジナルキャラクター[moco]の紹介など。">
 	<meta name="keywords" content="羊毛フェルト,ハンドメイドアクセサリー,オリジナルキャラクター,ナチュラル,自然,編み物,ニット,ニードルフェルト,安斎 繭,anzaimayu,mococon">
 	<meta name="facebook-domain-verification" content="6eagjs0l9jyauay1fvhijg3zni8b14" />
-	<link rel="icon" href="common/img/whattree.gif" sizes="16x16" type="image/png">
+	<link rel="icon" href="common/img/top/mayu_anzai_logo.jpg" sizes="16x16" type="image/png">
 	<link rel="stylesheet" href="common/css/style.css">
 	<link rel="stylesheet" type="text/css" href="common/slick/slick/slick.css" />
 	<link rel="stylesheet" type="text/css" href="common/slick/slick/slick-theme.css" />
@@ -31,5 +31,5 @@
 </head>
 <body class="fadein home">
 	<header class="header">
-		<h1><a href="index.php"><img src="common/img/mococon_rogo.gif" alt="mococon"></a></h1>
+		<h1><a href="index.php"><img src="common/img/top/mayu_anzai_logo.jpg" alt="メインロゴ"></a></h1>
 	</header>
