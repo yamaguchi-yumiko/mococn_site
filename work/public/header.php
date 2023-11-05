@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>羊毛フェルトハンドメイド雑貨[mococon]</title>
+	<title>羊毛フェルトハンドメイド雑貨｜A MAYU ANZAÏ WORCS</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="format-detection" content="telephone=no">
