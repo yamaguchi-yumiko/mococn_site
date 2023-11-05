@@ -56,7 +56,7 @@
 				</p>
 			</li>
 			<li class="navigation-nav">
-				<p><a href="https://twitter.com/mococon_" target="_blank">Twitter</a>
+				<p><a href="https://twitter.com/mococon_" target="_blank">X</a>
 				</p>
 			</li>
 	</div>
@@ -131,9 +131,9 @@
 			</div>
 			<div class="nsn-icon-top">
 				<ul>
-					<li><a href="https://www.facebook.com/mayu.anzai" ><img src="common/img/facebook2.svg" alt="anzaimayuのfacebook"></a></li>
-					<li><a href="https://www.instagram.com/mococon_/?hl=ja" ><img src="common/img/insta2.svg" alt="anzaimayuのInstagram"></a></li>
-					<li><a href="https://twitter.com/mococon_" ><img src="common/img/Twitter2.svg" alt="anzaimayuのTwitter"></a></li>
+					<li><a href="https://www.facebook.com/mayu.anzai" ><img src="common/img/sns/facebook_icon.svg" alt="anzaimayuのfacebook"></a></li>
+					<li><a href="https://www.instagram.com/mococon_/?hl=ja" ><img src="common/img/sns/insta_icon.svg" alt="anzaimayuのInstagram"></a></li>
+					<li><a href="https://twitter.com/mococon_" ><img src="common/img/sns/x_icon.svg" alt="anzaimayuのTwitter"></a></li>
 				</ul>
 			</div>
 		</div>
