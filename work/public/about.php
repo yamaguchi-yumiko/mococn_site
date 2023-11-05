@@ -5,7 +5,7 @@
 		<h1>About</h1>
 		<article class="about-concept">
 			<div class="about-top-img"></div>
-			<h2><span></span>Wool,Natural<br>Cute&Cool,WA</h2>
+			<h2><span></span>Wool&Natural,WA</h2>
 			<p>羊毛フェルトの歴史は古く、その始まりは紀元前とも言われています。</p>
 			<p>その製法はフワフワかわいいものから、カチッと固く押し固めきちんとしたものまで形を</p>
 			<p>自由に変えられる優れた素材です。</p>
