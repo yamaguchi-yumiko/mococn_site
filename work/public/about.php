@@ -33,7 +33,6 @@
 					<p>2015年11月クアラルンプールFINDERSにてぺインターNABEKAORUとともにグループ展を行う。</p>
 					<p>翌年春に同氏とアートユニット[Cokun,]を結成、2017夏に「Cokun,Artist Village(アーティストインレジデンススペース)」を佐賀県唐津市にて企画・開催、活動の幅を広げた。</p>
 					<p>現在は、都内やさいたまを中心に作品制作、販売などイベントやワークショップ、羊毛フェルトの出張講師など活動中。</p>
-					<div class="blog"><a href="http://mococon-blog.blogspot.com/" >以前のブログはコチラから</a></div>
 				</div>
 			</div>
 		</article>

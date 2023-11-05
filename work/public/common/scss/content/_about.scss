@@ -4,7 +4,6 @@
 .about-content {
   text-align: center;
   margin: 60px 0;
-  .blog,
   p {
 	text-align: left;
 	margin-top: 30px;
@@ -68,12 +67,5 @@
       left: 50%;
       margin-left: -4px;
     }
-  }
-}
-
-.blog {
-  a {
-    color: rgb(246, 175, 16);
-    border-bottom: 1px solid;
   }
 }
