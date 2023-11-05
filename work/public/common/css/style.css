@@ -443,7 +443,7 @@ p {
 
 /*header-image*/
 .top {
-  background: url(../img/IMG_7410.JPG);
+  background: url(../img/top/top_image_1.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -1295,7 +1295,7 @@ span {
 
   /*トップ画像*/
   .top {
-    background: url(../img/IMG_7410.JPG);
+    background: url(../img/top/top_image_1.JPG);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
