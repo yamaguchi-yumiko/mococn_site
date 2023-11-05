@@ -37,9 +37,9 @@
 			<li class="navigation-nav">
 				<p><a href="about.php" >About</a></p>
 			</li>
-			<li class="navigation-nav">
-				<p><a href="gallery.php">Gallery</a></p>
-			</li>
+			<!-- <li class="navigation-nav">
+				<p><a href="color-therapy.php">Color Therapy</a></p>
+			</li> -->
 			<li class="navigation-nav">
 				<p><a href="http://mococon.shop-pro.jp/" target="_blank">Online&nbsp;shop</a></p>
 			</li>
@@ -107,11 +107,11 @@
 					</li>
 				</ul>
 				<ul>
-					<li>
-						<a href="gallery.php">
-							<p>Gallery</p>
+<!-- <li>
+						<a href="color-therapy.php">
+							<p>Color Therapy</p>
 						</a>
-					</li>
+					</li> -->
 					<li>
 						<a href="about.php">
 							<p>About</p>
