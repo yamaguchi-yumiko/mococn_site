@@ -8,10 +8,10 @@
 		<div class="concept-brand">
 			<div class="concept-top">
 				<div class="concept-history">
-					<div>
+					<div class="concept-text">
 						<p>Wool&Natural,WA</p>
 						<p>
-						羊毛フェルトの歴史は古く、その始まりは紀元前とも言われています。</p>
+							羊毛フェルトの歴史は古く、その始まりは紀元前とも言われています。</p>
 						<p>その製法はフワフワかわいいものから、カチッと固く押し固めきちんとしたものまで形を</p>
 						<p>自由に変えられる優れた素材です。</p>
 						<p>自然の風合いを生かし、時には草木染めから施し制作しています。</p>
@@ -50,12 +50,20 @@
 		<h2>News</h2>
 		<div class="news-wrap">
 			<div class="news-first">
-				<p>■■グランスタ東京「TEYNEY POP UP SHOP！」■■</p>
-				<p>〔開催日時〕2022年3月21日(月祝)〜3月27日(日)&nbsp;月～金 10:00-21:30 土・日・祝 10:00-21:00</p>
-				<p>〔営業時間は変更になる場合があります会場〕東京都千代田区丸の内1-9-1 東京駅構内</p>
+				<div class="event_dm">
+					<img src="common/img/news/news_20231123.jpg" alt="イベントDM前">
+				</div>
+				<div class="news_text">
+					<p>キヨセdeフェスタへ出店させていただきます。</p>
+					<p>コロナ禍以降久しぶりのマルシェ参加となりました。<br>ぜひお越しください。</p>
+					<p>羊毛フェルトの雑貨販売と、カラーヒーリングの体験版+羊毛フェルト体験を準備しています。</p>
+					<p>日時:2023/11/23(Thu)</p>
+					<p>10:00〜16:00</p>
+					<p>会場:清瀬駅北口アミュービル7階アミューホール</p>
+					<p>※入場無料</p>
+				</div>
+				<div class="arrow-content"><a href="news.php" target="_blank">more</a></div>
 			</div>
-			<div class="arrow-content"><a href="news.php" target="_blank">more</a></div>
-		</div>
 	</section>
 </main>
 <?php require_once('footer.php'); ?>

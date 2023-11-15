@@ -189,7 +189,6 @@ p {
   position: absolute;
   top: 30%;
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   width: 84%;
 }
@@ -209,7 +208,6 @@ p {
   -ms-transform: rotate(0);
       transform: rotate(0);
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   width: 100%;
 }
@@ -261,7 +259,6 @@ p {
   height: 100%;
   background: #fff;
   -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
@@ -288,7 +285,6 @@ p {
   background: #000;
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -303,7 +299,6 @@ p {
 .drawer-content-nav li {
   border-bottom: 1px solid #333333;
   -webkit-transition: 0.3s ease 0s;
-  -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
   color: #333333;
 }
@@ -328,7 +323,6 @@ p {
 .nsn-icon-top li {
   list-style-type: none;
   -webkit-transition: 0.3s ease 0s;
-  -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
 }
 .nsn-icon-top li:hover {
@@ -386,7 +380,6 @@ p {
 .nsn-icon li {
   list-style-type: none;
   -webkit-transition: 0.3s ease 0s;
-  -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
   width: 100%;
 }
@@ -429,7 +422,6 @@ p {
       -ms-transform: translate(0, 45px);
           transform: translate(0, 45px);
   -webkit-transition: all 1000ms;
-  -o-transition: all 1000ms;
   transition: all 1000ms;
 }
 
@@ -506,7 +498,6 @@ h3 {
   background: #BDBDBD;
   margin-top: 30px;
   -webkit-transition: 0.3s ease 0s;
-  -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
   position: relative;
 }
@@ -535,6 +526,10 @@ h3 {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+.concept-text {
+  padding: 0px 30px 0px 30px;
 }
 
 /*item-category*/
@@ -599,7 +594,6 @@ h3 {
   color: #fff;
   margin-top: 20px;
   -webkit-transition: 0.3s ease 0s;
-  -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
   margin-right: 10px;
   position: relative;
@@ -650,11 +644,17 @@ h3 {
 .news-wrap .news-first {
   margin-bottom: 40px;
 }
+.news-wrap .news-first .event_dm {
+  margin-bottom: 20px;
+}
 .news-wrap .news-first .event_dm img {
   width: 400px;
   margin: 20px 10px 0 0;
   -webkit-box-shadow: 0 10px 25px 0 #BDBDBD;
           box-shadow: 0 10px 25px 0 #BDBDBD;
+}
+.news-wrap .news-first .news_text {
+  padding: 20px;
 }
 .news-wrap time {
   font-weight: bold;
@@ -664,6 +664,9 @@ h3 {
   margin-top: 20px;
 }
 
+.arrow-content {
+  margin-top: 40px;
+}
 .arrow-content a {
   position: relative;
   display: inline-block;
@@ -672,7 +675,6 @@ h3 {
   text-align: right;
   color: rgb(18, 53, 98);
   -webkit-transition: 0.3s ease 0s;
-  -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
 }
 .arrow-content a::before {
@@ -690,7 +692,6 @@ h3 {
   left: 0;
   margin-top: -4px;
   -webkit-transition: 0.3s ease 0s;
-  -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
 }
 .arrow-content a:hover {
@@ -719,7 +720,6 @@ figure img {
       -ms-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -1057,7 +1057,6 @@ span {
   background: #5f5f5f;
   margin-top: 30px;
   -webkit-transition: 0.3s ease 0s;
-  -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137);
@@ -1090,23 +1089,19 @@ span {
   #drawer-icon span {
     margin: -8% 0 0 -200%;
   }
-
   .header img {
     width: 200px;
     height: auto;
   }
-
   .category-section {
     margin: 100px 0;
   }
-
   .item-category-top {
     width: 80%;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     margin: 40px auto;
   }
-
   .slider {
     margin: 30px auto;
     width: 50%;
@@ -1116,16 +1111,13 @@ span {
     height: auto;
     width: 100%;
   }
-
   .nsn-icon-top img {
     width: 40%;
     height: auto;
   }
-
   .nsn-icon li {
     width: auto;
   }
-
   /* ==============================================================
   *  aboutレイアウト PC
   * ============================================================ */
@@ -1134,15 +1126,12 @@ span {
     height: 200px;
     margin-bottom: 60px;
   }
-
   .about-section {
     margin: 100px 0;
   }
-
   .about-concept p {
     text-align: center;
   }
-
   .about-content {
     margin: 20px 0;
     border-top: 1px solid #EFEFEF;
@@ -1152,7 +1141,6 @@ span {
     margin: auto;
     margin-top: 10px;
   }
-
   .profile-content {
     text-align: left;
     margin-left: 30px;
@@ -1160,7 +1148,6 @@ span {
   .profile-content p:nth-child(1) {
     margin: 0;
   }
-
   .about-profile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1172,15 +1159,12 @@ span {
   .about-profile img {
     width: 40%;
   }
-
   .about-concept {
     margin: 50px 0;
   }
-
   .about-history {
     margin-left: 30px;
   }
-
   .about-top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1196,12 +1180,10 @@ span {
   .about-top p {
     padding: 10px;
   }
-
   .about-top img {
     max-width: 30%;
     height: auto;
   }
-
   /* ==============================================================
   *  galleryレイアウト
   * ============================================================ */
@@ -1209,59 +1191,50 @@ span {
     margin: 20px 0;
     border-top: 1px solid #EFEFEF;
   }
-
   .gallery-section {
     margin: 100px 0;
   }
-
   .line-stamp {
     margin-top: 150px;
   }
   .line-stamp h1 {
     margin-bottom: 80px;
   }
-
   .line-stamp-content {
     height: 220px;
   }
   .line-stamp-content img {
     width: 150px;
   }
-
   .line-stamp-content {
     width: 80%;
   }
-
   .line-stamp-comtet .button {
     padding-top: 12px;
     border-radius: 30px;
     width: 200px;
     height: 50px;
   }
-
   .news-archives {
     text-align: center;
   }
-
   /* ==============================================================
   *  categoryレイアウト
   * ============================================================ */
   .tie-content,
-.Original-Mascot-content,
-.Other-content,
-.Bag-content,
-.news-content {
+  .Original-Mascot-content,
+  .Other-content,
+  .Bag-content,
+  .news-content {
     margin: 20px 0;
     border-top: 1px solid #EFEFEF;
     text-align: center;
   }
-
   .item-category-items {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     width: 90%;
   }
-
   /* ==============================================================
   *  newsレイアウト
   * ============================================================ */
@@ -1284,7 +1257,6 @@ span {
     width: 100px;
     height: auto;
   }
-
   /*トップ画像*/
   .top {
     background: url(../img/top/top_image_3.JPG);
@@ -1294,7 +1266,6 @@ span {
     height: 450px;
     margin-top: 20px;
   }
-
   /*main*/
   .home-top h2 {
     margin-bottom: 50px;
@@ -1306,16 +1277,13 @@ span {
     left: 50%;
     border-radius: 3px;
   }
-
   /*header*/
   #drawer-icon {
     display: none;
   }
-
   .navigation-pc {
     margin: auto;
     -webkit-transition: 0.3s ease 0s;
-    -o-transition: 0.3s ease 0s;
     transition: 0.3s ease 0s;
     margin-top: 60px;
   }
@@ -1340,20 +1308,16 @@ span {
   .navigation-pc ul a:hover {
     opacity: 0.7;
   }
-
   /*item-category*/
   .item-category-top {
     width: 75%;
   }
-
   .item-box-index img {
     width: 80%;
   }
-
   .item-box img {
     width: 80%;
   }
-
   #grad-trigger {
     font-size: 20px;
     width: 380px;
@@ -1378,28 +1342,23 @@ span {
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
   }
-
   /* news */
   .news-wrap img {
     max-width: 60%;
     margin-top: 20px;
   }
-
   .footer p {
     font-size: 12px;
   }
-
   /* ==============================================================
   *  aboutレイアウト
   * ============================================================ */
   .about-content h3 {
     margin-top: 40px;
   }
-
   .about-top-img {
     background-size: auto;
   }
-
   /* ==============================================================
   *  galleryレイアウト
   * ============================================================ */
@@ -1412,7 +1371,6 @@ span {
     margin-top: 70px;
     width: 70%;
   }
-
   .line-stamp-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1421,11 +1379,9 @@ span {
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .line-stamp-top {
     margin-left: 10px;
   }
-
   .line-stamp p:nth-child(1) {
     font-size: 13px;
   }

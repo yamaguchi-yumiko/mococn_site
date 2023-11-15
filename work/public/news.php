@@ -5,6 +5,7 @@
 		<h1>News</h1>
 		<div class="news-archives">
 			<div class="tim-container">
+				<p>グランスタ東京「TEYNEY POP UP SHOP！」</p>
 				<p>2021/11/23〜11/30</p>
 				<p>ritmarus&nbsp;x&nbsp;mococon&nbsp;Exhibition<br>Collaboration&nbsp;Workbr<br>『FACE&nbsp;-&nbsp;BACK』展</p>
 				<p>2021/10/12～2021/10/17</p>

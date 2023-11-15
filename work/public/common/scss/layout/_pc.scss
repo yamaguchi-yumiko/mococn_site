@@ -5,14 +5,14 @@
 $tab: 800px;
 $pc: 1024px; // min-width定義
 
-@mixin tab {
-    @media screen and (-webkit-min-device-pixel-ratio:0) and(min-width: ($tab)) {
+@mixin tab($tab) {
+    @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: #{$tab}) {
         @content;
     }
 }
 
-@mixin pc {
-    @media screen and (-webkit-min-device-pixel-ratio:0) and(min-width: ($pc)) {
+@mixin pc($pc) {
+    @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: #{$pc}) {
         @content;
     }
 }
@@ -22,7 +22,7 @@ $pc: 1024px; // min-width定義
 *  タブレット
 * ============================================================ */
 
-@include tab {
+@include tab($tab) {
     #drawer-icon span {
         margin: -8% 0 0 -200%;
     }
@@ -214,7 +214,7 @@ $pc: 1024px; // min-width定義
 /* ==============================================================
 *  PC
 * ============================================================ */
-@include pc {
+@include pc($pc) {
 
     /*header*/
     .header {
