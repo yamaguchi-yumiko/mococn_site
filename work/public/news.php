@@ -5,9 +5,10 @@
 		<h1>News</h1>
 		<div class="news-archives">
 			<div class="tim-container">
-				<p>グランスタ東京「TEYNEY POP UP SHOP！」</p>
+				<p>2023/11/23</p>
+				<p>キヨセdeフェスタ&nbsp;清瀬駅北口アミュービル7階アミューホール</p>
 				<p>2021/11/23〜11/30</p>
-				<p>ritmarus&nbsp;x&nbsp;mococon&nbsp;Exhibition<br>Collaboration&nbsp;Workbr<br>『FACE&nbsp;-&nbsp;BACK』展</p>
+				<p>グランスタ東京「TEYNEY POP UP SHOP！」</p>
 				<p>2021/10/12～2021/10/17</p>
 				<p>「2021秋&nbsp;羊毛フィルト作品展vol.17」</p>
 				<p>2021/11/23～2021/11/29</p>

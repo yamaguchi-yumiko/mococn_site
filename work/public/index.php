@@ -50,17 +50,25 @@
 		<h2>News</h2>
 		<div class="news-wrap">
 			<div class="news-first">
+
+				<div class="news_text">
+				    <p>◆◆◆ハレマルシェ・プレシャスマーケット◆◆◆</p>
+					<p>日時:2023年12月02(土)11:00〜19:00</p>
+					<p>場所:ルミネ有楽町1Fパッサージュ</p>
+				</div>
 				<div class="event_dm">
-					<img src="common/img/news/news_20231123.jpg" alt="イベントDM前">
+					<img src="common/img/news/news_20231202.jpg" alt="イベントDM前">
 				</div>
 				<div class="news_text">
-					<p>キヨセdeフェスタへ出店させていただきます。</p>
-					<p>コロナ禍以降久しぶりのマルシェ参加となりました。<br>ぜひお越しください。</p>
-					<p>羊毛フェルトの雑貨販売と、カラーヒーリングの体験版+羊毛フェルト体験を準備しています。</p>
-					<p>日時:2023/11/23(Thu)</p>
-					<p>10:00〜16:00</p>
-					<p>会場:清瀬駅北口アミュービル7階アミューホール</p>
-					<p>※入場無料</p>
+					<p>◆◆◆Teyney&nbsp;Teyney&nbsp;Felt&nbsp;POP&nbsp;UP&nbsp;SHOP!◆◆◆</p>
+					<p>2023年12月14日(木)~12月25日(月) 10:00-20:00</p>
+					<p>*最終日は19時まで</p>
+					<p>[会場]東京都武蔵野市吉祥寺本町2-3-1 東急百貨店 </p>
+					<p>吉祥寺店 1F イベントスペース</p>
+					<p>[TEL] 0422-21-5111</p>
+				</div>
+				<div class="event_dm">
+					<img src="common/img/news/news_20231214.jpg" alt="イベントDM前">
 				</div>
 				<div class="arrow-content"><a href="news.php" target="_blank">more</a></div>
 			</div>
