@@ -69,6 +69,9 @@
 <?php require_once('footer.php'); ?>
 </body>
 <script>
+	$('#accordion').on('click', function() {
+		$('#accordion-content').slideToggle();
+	});
 </script>
 
 </html>
