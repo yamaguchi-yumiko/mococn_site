@@ -14,7 +14,7 @@
 					</li>
 					<li class="category-list-items">
 						<a href="original-mascot.php">
-							<p>Original&nbsp;mascot</p>
+							<p>Original&nbsp;Mascot</p>
 						</a>
 					</li>
 					<li class="category-list-items">
@@ -38,11 +38,11 @@
 				<p><a href="about.php">About</a></p>
 			</li>
 			<li class="navigation-nav">
-				<p><a href="http://mococon.shop-pro.jp/" target="_blank">Online&nbsp;shop</a></p>
+				<p><a href="http://mococon.shop-pro.jp/" target="_blank">Online&nbsp;Shop</a></p>
 			</li>
 			<li>
-				<a href="https://reserva.be/mayuanzaicolorfelt" target="_blank">
-					<p>Coror therapy</p>
+				<a href="color-therapy.php">
+					<p>Color&nbsp;Therapy</p>
 				</a>
 			</li>
 			<li class="navigation-nav">
@@ -77,7 +77,7 @@
 					</li>
 					<li>
 						<a href="original-mascot.php">
-							<p>Original&nbsp;mascot</p>
+							<p>Original&nbsp;Mascot</p>
 						</a>
 					</li>
 					<li>
@@ -96,11 +96,6 @@
 					</li>
 				</ul>
 				<ul>
-					<!-- <li>
-						<a href="color-therapy.php">
-							<p>Color Therapy</p>
-						</a>
-					</li> -->
 					<li>
 						<a href="about.php">
 							<p>About</p>
@@ -108,12 +103,12 @@
 					</li>
 					<li>
 						<a href="http://mococon.shop-pro.jp/" target="_blank">
-							<p>online&nbsp;shop</p>
+							<p>Online&nbsp;Shop</p>
 						</a>
 					</li>
 					<li class="category-list-items">
-						<a href="https://reserva.be/mayuanzaicolorfelt" target="_blank">
-							<p>Coror therapy</p>
+						<a href="color-therapy.php">
+							<p>Color&nbsp;Therapy</p>
 						</a>
 					</li>
 					<li>

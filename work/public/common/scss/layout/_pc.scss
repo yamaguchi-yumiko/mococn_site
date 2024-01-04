@@ -6,15 +6,15 @@ $tab: 800px;
 $pc: 1024px; // min-width定義
 
 @mixin tab($tab) {
-    @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: #{$tab}) {
-        @content;
-    }
+	@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: #{$tab}) {
+		@content;
+	}
 }
 
 @mixin pc($pc) {
-    @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: #{$pc}) {
-        @content;
-    }
+	@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: #{$pc}) {
+		@content;
+	}
 }
 
 //＠includeする事で、上記が適用される
@@ -23,186 +23,224 @@ $pc: 1024px; // min-width定義
 * ============================================================ */
 
 @include tab($tab) {
-    #drawer-icon span {
-        margin: -8% 0 0 -200%;
-    }
+	#drawer-icon span {
+		margin: -8% 0 0 -200%;
+	}
 
-    .header {
-        img {
-            width: 200px;
-            height: auto;
-        }
-    }
+	.header {
+		img {
+			width: 200px;
+			height: auto;
+		}
+	}
 
-    .category-section {
-        margin: 100px 0;
-    }
+	.category-section {
+		margin: 100px 0;
+	}
 
-    .item-category-top {
-        width: 80%;
-        flex-wrap: nowrap;
-        margin: 40px auto;
-    }
+	.item-category-top {
+		width: 80%;
+		flex-wrap: nowrap;
+		margin: 40px auto;
+	}
 
-    .slider {
-        margin: 30px auto;
-        width: 50%;
-        height: auto;
+	.slider {
+		margin: 30px auto;
+		width: 50%;
+		height: auto;
 
-        img {
-            height: auto;
-            width: 100%;
-        }
-    }
+		img {
+			height: auto;
+			width: 100%;
+		}
+	}
 
-
-    .nsn-icon li {
-        width: auto;
-    }
-
-    //news
-
-    /* ==============================================================
+	/* ==============================================================
 *  aboutレイアウト PC
 * ============================================================ */
-    .about-top-img {
-        width: 100%;
-        height: 350px;
-        margin-bottom: 60px;
-    }
+	.about-top-img {
+		width: 100%;
+		height: 350px;
+		margin-bottom: 60px;
+	}
 
-    .about-section {
-        margin: 100px 0;
-    }
+	.about-section {
+		margin: 100px 0;
+	}
 
-    .about-concept p {
-        text-align: center;
-    }
+	.about-concept p {
+		text-align: center;
+	}
 
-    .about-content {
-        margin: 20px 0;
-        border-top: 1px solid $color-lightgray;
+	.about-content {
+		margin: 20px 0;
+		border-top: 1px solid $color-lightgray;
 
-        p {
-            width: 560px;
-            margin: auto;
-            margin-top: 10px;
-        }
-    }
+		p {
+			width: 560px;
+			margin: auto;
+			margin-top: 10px;
+		}
+	}
 
-    .profile-content {
-        text-align: left;
-        margin-left: 30px;
+	.profile-content {
+		text-align: left;
+		margin-left: 30px;
 
-        p:nth-child(1) {
-            margin: 0;
-        }
-    }
+		p:nth-child(1) {
+			margin: 0;
+		}
+	}
 
-    .about-profile {
-        img {
-            width: 40%;
-        }
+	.about-profile {
+		img {
+			width: 40%;
+		}
 
-        display: flex;
-        justify-content: center;
-    }
+		display: flex;
+		justify-content: center;
+	}
 
-    .about-concept {
-        margin: 50px 0;
-    }
+	.about-concept {
+		margin: 50px 0;
+	}
 
-    .about-history {
-        margin-left: 30px;
-    }
+	.about-history {
+		margin-left: 30px;
+	}
 
-    .about-top {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
+	.about-top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
 
-        p {
-            padding: 10px;
-        }
-    }
+		p {
+			padding: 10px;
+		}
+	}
 
-    .about-top img {
-        max-width: 30%;
-        height: auto;
-    }
+	.about-top img {
+		max-width: 30%;
+		height: auto;
+	}
 
-    /* ==============================================================
+
+	/* ==============================================================
+*  color-therapyレイアウト PC
+* ============================================================ */
+	.color-therapy-top-img,
+	.color-therapy-second-img {
+		width: 100%;
+		height: 700px;
+		margin-bottom: 60px;
+	}
+
+	.color-therapy-section {
+		margin: 100px 0;
+	}
+
+	.color-therapy-inner p {
+		text-align: center;
+	}
+
+	.color-therapy-content {
+		margin: 20px 0;
+		border-top: 1px solid $color-lightgray;
+
+		p {
+			margin: auto;
+			margin-top: 10px;
+		}
+	}
+
+	.color-therapy-top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+
+		p {
+			padding: 10px;
+		}
+	}
+
+	.color-therapy-top img {
+		max-width: 30%;
+		height: auto;
+	}
+
+	/* ==============================================================
   *  galleryレイアウト
   * ============================================================ */
-    .gallery-content {
-        margin: 20px 0;
-        border-top: 1px solid $color-lightgray;
-    }
+	.gallery-content {
+		margin: 20px 0;
+		border-top: 1px solid $color-lightgray;
+	}
 
-    .gallery-section {
-        margin: 100px 0;
-    }
+	.gallery-section {
+		margin: 100px 0;
+	}
 
-    .line-stamp {
-        margin-top: 150px;
+	.line-stamp {
+		margin-top: 150px;
 
-        h1 {
-            margin-bottom: 80px;
-        }
-    }
+		h1 {
+			margin-bottom: 80px;
+		}
+	}
 
-    .line-stamp-content {
-        height: 220px;
+	.line-stamp-content {
+		height: 220px;
 
-        img {
-            width: 150px;
-        }
-    }
+		img {
+			width: 150px;
+		}
+	}
 
-    .line-stamp-content {
-        width: 80%;
-    }
+	.line-stamp-content {
+		width: 80%;
+	}
 
-    .line-stamp-comtet .button {
-        padding-top: 12px;
-        border-radius: 30px;
-        width: 200px;
-        height: 50px;
-    }
+	.line-stamp-comtet .button {
+		padding-top: 12px;
+		border-radius: 30px;
+		width: 200px;
+		height: 50px;
+	}
 
-    .news-archives {
-        text-align: center;
-    }
+	.news-archives {
+		text-align: center;
+	}
 
-    /* ==============================================================
+	/* ==============================================================
 *  categoryレイアウト
 * ============================================================ */
 
-    .tie-content,
-    .Original-Mascot-content,
-    .Other-content,
-    .Bag-content,
-    .news-content {
-        margin: 20px 0;
-        border-top: 1px solid $color-lightgray;
-        text-align: center;
-    }
+	.tie-content,
+	.Original-Mascot-content,
+	.Other-content,
+	.Bag-content,
+	.news-content {
+		margin: 20px 0;
+		border-top: 1px solid $color-lightgray;
+		text-align: center;
+	}
 
-    .item-category-items {
-        flex-wrap: nowrap;
-        width: 90%;
-    }
+	.item-category-items {
+		flex-wrap: nowrap;
+		width: 90%;
+	}
 
-    /* ==============================================================
+	/* ==============================================================
 *  newsレイアウト
 * ============================================================ */
-    .news-archives {
-        width: 700px;
-        margin: auto;
-        margin-top: 30px;
+	.news-archives {
+		width: 700px;
+		margin: auto;
+		margin-top: 30px;
 
-    }
+	}
 }
 
 /* ==============================================================
@@ -210,54 +248,55 @@ $pc: 1024px; // min-width定義
 * ============================================================ */
 @include pc($pc) {
 
-    /*header*/
-    .header {
-        width: 1050px;
-        margin: auto;
+	/*header*/
+	.header {
+		width: 1050px;
+		margin: auto;
 
-        img {
-            width: 100px;
-            height: auto;
-        }
-    }
+		img {
+			width: 100px;
+			height: auto;
+		}
+	}
 
 
 
-    /*トップ画像*/
-    .top {
-        background: url(../img/top/top_image_3.JPG);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        height: 450px;
-        margin-top: 20px;
-    }
+	/*トップ画像*/
+	.top {
+		background: url(../img/top/top_image_3.JPG);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		height: 450px;
+		margin-top: 20px;
+	}
 
-    /*main*/
-    .home-top {
-        h2 {
-            margin-bottom: 50px;
+	/*main*/
+	.home-top {
+		h2 {
+			margin-bottom: 50px;
 
-            &:before {
-                bottom: -15px;
-                width: 35px;
-                height: 2px;
-                left: 50%;
-                border-radius: 3px;
-            }
-        }
-    }
+			&:before {
+				bottom: -15px;
+				width: 35px;
+				height: 2px;
+				left: 50%;
+				border-radius: 3px;
+			}
+		}
+	}
 
-    /*header*/
-    #drawer-icon {
-        display: none;
-    }
+	/*header*/
+	#drawer-icon {
+		display: none;
+	}
 
 	.nsn-icon-top-pc {
 		display: inline-block;
 		position: fixed;
 		right: 30px;
 		bottom: 100px;
+
 		img {
 			width: 20px;
 			height: 20px;
@@ -278,144 +317,159 @@ $pc: 1024px; // min-width定義
 		}
 	}
 
-    .navigation-pc {
-        margin: auto;
-        transition: 0.3s ease 0s;
-        margin-top: 60px;
+	.navigation-pc {
+		margin: auto;
+		transition: 0.3s ease 0s;
+		margin-top: 60px;
 
-        p {
-            line-height: 1.2em;
-            color: $color-bule;
-        }
+		p {
+			line-height: 1.2em;
+			color: $color-bule;
+		}
 
-        ul {
-            display: flex;
-            justify-content: center;
+		ul {
+			display: flex;
+			justify-content: center;
 
-            li {
-                margin-left: 10px;
-            }
+			li {
+				margin-left: 10px;
+			}
 
-            a {
-                color: $color-bule;
+			a {
+				color: $color-bule;
 
-                &:hover {
-                    opacity: 0.7;
-                }
-            }
-        }
-    }
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+		}
+	}
 
-    /*item-category*/
-    .item-category-top {
-        width: 75%;
-    }
+	/*item-category*/
+	.item-category-top {
+		width: 75%;
+	}
 
-    .item-box-index {
-        img {
-            width: 80%;
-        }
-    }
+	.item-box-index {
+		img {
+			width: 80%;
+		}
+	}
 
-    .item-box {
-        img {
-            width: 80%;
-        }
-    }
+	.item-box {
+		img {
+			width: 80%;
+		}
+	}
 
-    #grad-trigger {
-        font-size: 20px;
-        width: 380px;
-        height: 60px;
-        padding-top: 18px;
+	#grad-trigger {
+		font-size: 20px;
+		width: 380px;
+		height: 60px;
+		padding-top: 18px;
 
-        &:before {
-            content: "";
-            margin-top: auto;
-            margin-bottom: auto;
-            display: block;
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 340px;
-            bottom: 10px;
-            border-right: 2px solid #fff;
-            border-bottom: 2px solid #fff;
-            width: 13px;
-            height: 13px;
-            transform: rotate(45deg);
-        }
-    }
+		&:before {
+			content: "";
+			margin-top: auto;
+			margin-bottom: auto;
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 340px;
+			bottom: 10px;
+			border-right: 2px solid #fff;
+			border-bottom: 2px solid #fff;
+			width: 13px;
+			height: 13px;
+			transform: rotate(45deg);
+		}
+	}
 
-    /* news */
-    .news-wrap {
-        img {
-            max-width: 60%;
-            margin-top: 20px;
-        }
-    }
+	/* news */
+	.news-wrap {
+		img {
+			max-width: 60%;
+			margin-top: 20px;
+		}
+	}
 
-    .footer {
-        p {
-            font-size: 12px;
-        }
-    }
+	.footer {
+		p {
+			font-size: 12px;
+		}
+	}
 
-    /* ==============================================================
+	/* ==============================================================
   *  aboutレイアウト
   * ============================================================ */
 
-    .about-content {
-        h3 {
-            margin-top: 40px;
-        }
-    }
+	.about-content {
+		h3 {
+			margin-top: 40px;
+		}
+	}
 
-    .about-top-img {
-        background-size: auto;
-    }
+	.about-top-img {
+		background-size: auto;
+	}
 
-    /* ==============================================================
+	/* ==============================================================
+  *  olor-therapyレイアウト
+  * ============================================================ */
+
+	.color-therapy-content {
+		h3 {
+			margin-top: 40px;
+		}
+	}
+
+	.color-therapy-top-img,
+	.color-therapy-second-img {
+		background-size: auto;
+	}
+
+	/* ==============================================================
   *  galleryレイアウト
   * ============================================================ */
 
-    .line-stamp-content {
-        height: 200px;
-        padding-right: 20px;
-        margin-left: 0;
+	.line-stamp-content {
+		height: 200px;
+		padding-right: 20px;
+		margin-left: 0;
 
-        img {
-            margin-top: 70px;
-            width: 70%;
-        }
-    }
+		img {
+			margin-top: 70px;
+			width: 70%;
+		}
+	}
 
-    .line-stamp-container {
-        display: flex;
-        justify-content: center;
-    }
+	.line-stamp-container {
+		display: flex;
+		justify-content: center;
+	}
 
-    .line-stamp-top {
-        margin-left: 10px;
-    }
+	.line-stamp-top {
+		margin-left: 10px;
+	}
 
-    .line-stamp p:nth-child(1) {
-        font-size: 13px;
-    }
+	.line-stamp p:nth-child(1) {
+		font-size: 13px;
+	}
 }
 
 /* ==============================================================
 *  original-mascotレイアウト
 * ============================================================ */
 .original-mascot-top {
-    margin-top: 60px;
+	margin-top: 60px;
 }
 
 .original-mascot-text {
-    margin-top: 30px;
+	margin-top: 30px;
 
-    p:nth-child(1) {
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
+	p:nth-child(1) {
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
 }

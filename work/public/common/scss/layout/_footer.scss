@@ -12,28 +12,6 @@
   }
 }
 
-.nsn-icon {
-  ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  li {
-    list-style-type: none;
-    transition: 0.3s ease 0s;
-    width: 100%;
-
-    &:hover {
-      opacity: 0.7;
-    }
-  }
-
-  img {
-    width: 25%;
-    height: auto;
-  }
-}
-
 #loader-bg {
   background: #fff;
   height: 100%;
