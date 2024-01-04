@@ -18,30 +18,35 @@
 						</a>
 					</li>
 					<li class="category-list-items">
-						<a href="tie.php" >
+						<a href="tie.php">
 							<p>Tie</p>
 						</a>
 					</li>
 					<li class="category-list-items">
-						<a href="bag.php" >
+						<a href="bag.php">
 							<p>Bag</p>
 						</a>
 					</li>
 					<li class="category-list-items">
-						<a href="Animals.php" >
+						<a href="Animals.php">
 							<p>Animals</p>
 						</a>
 					</li>
 				</ul>
 			</li>
 			<li class="navigation-nav">
-				<p><a href="about.php" >About</a></p>
+				<p><a href="about.php">About</a></p>
 			</li>
 			<!-- <li class="navigation-nav">
 				<p><a href="color-therapy.php">Color Therapy</a></p>
 			</li> -->
 			<li class="navigation-nav">
 				<p><a href="http://mococon.shop-pro.jp/" target="_blank">Online&nbsp;shop</a></p>
+			</li>
+			<li>
+				<a href="https://reserva.be/mayuanzaicolorfelt" target="_blank">
+					<p>Coror therapy</p>
+				</a>
 			</li>
 			<li class="navigation-nav">
 				<p><a href=" http://ws.formzu.net/fgen/S82910306" target="_blank">Contact</a>
@@ -107,7 +112,7 @@
 					</li>
 				</ul>
 				<ul>
-<!-- <li>
+					<!-- <li>
 						<a href="color-therapy.php">
 							<p>Color Therapy</p>
 						</a>
@@ -122,8 +127,13 @@
 							<p>online&nbsp;shop</p>
 						</a>
 					</li>
+					<li class="category-list-items">
+						<a href="https://reserva.be/mayuanzaicolorfelt" target="_blank">
+							<p>Coror therapy</p>
+						</a>
+					</li>
 					<li>
-						<a href=" http://ws.formzu.net/fgen/S82910306" target="_blank">
+						<a href="http://ws.formzu.net/fgen/S82910306" target="_blank">
 							<p>Contact</p>
 						</a>
 					</li>
@@ -131,9 +141,9 @@
 			</div>
 			<div class="nsn-icon-top">
 				<ul>
-					<li><a href="https://www.facebook.com/mayu.anzai" ><img src="common/img/sns/facebook_icon.svg" alt="anzaimayuのfacebook"></a></li>
-					<li><a href="https://www.instagram.com/mayuanzai" ><img src="common/img/sns/insta_icon.svg" alt="anzaimayuのInstagram"></a></li>
-					<li><a href="https://twitter.com/mococon_" ><img src="common/img/sns/x_icon.svg" alt="anzaimayuのTwitter"></a></li>
+					<li><a href="https://www.facebook.com/mayu.anzai"><img src="common/img/sns/facebook_icon.svg" alt="anzaimayuのfacebook"></a></li>
+					<li><a href="https://www.instagram.com/mayuanzai"><img src="common/img/sns/insta_icon.svg" alt="anzaimayuのInstagram"></a></li>
+					<li><a href="https://twitter.com/mococon_"><img src="common/img/sns/x_icon.svg" alt="anzaimayuのTwitter"></a></li>
 				</ul>
 			</div>
 		</div>
