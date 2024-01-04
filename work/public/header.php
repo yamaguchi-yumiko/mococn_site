@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
 	<meta charset="UTF-8">
 	<title>羊毛フェルトハンドメイド雑貨｜A MAYU ANZAÏ WORCS</title>
@@ -19,6 +20,7 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156667023-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
+
 		function gtag() {
 			dataLayer.push(arguments);
 		}
@@ -29,7 +31,15 @@
 	<script src="common/slick/slick/slick.min.js"></script>
 	<script src="index.js"></script>
 </head>
+
 <body class="fadein home">
 	<header class="header">
 		<h1><a href="index.php"><img src="common/img/top/mayu_anzai_logo.jpg" alt="メインロゴ"></a></h1>
 	</header>
+	<div class="nsn-icon-top-pc">
+		<ul>
+			<li><a href="https://www.instagram.com/mayuanzai" target="_blank"><img src="common/img/sns/instagram_logo.png" alt="anzaimayuのInstagram"></a></li>
+			<li><a href="https://twitter.com/mococon_" target="_blank"><img src="common/img/sns/x_logo.png" alt="anzaimayuのTwitter"></a></li>
+			<li><a href="https://www.facebook.com/mayu.anzai" target="_blank"><img src="common/img/sns/facebook_logo.png" alt="anzaimayuのfacebook"></a></li>
+		</ul>
+	</div>

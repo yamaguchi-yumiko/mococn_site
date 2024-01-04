@@ -55,12 +55,6 @@ $pc: 1024px; // min-width定義
         }
     }
 
-    .nsn-icon-top {
-        img {
-            width: 40%;
-            height: auto;
-        }
-    }
 
     .nsn-icon li {
         width: auto;
@@ -258,6 +252,31 @@ $pc: 1024px; // min-width定義
     #drawer-icon {
         display: none;
     }
+
+	.nsn-icon-top-pc {
+		display: inline-block;
+		position: fixed;
+		right: 30px;
+		bottom: 100px;
+		img {
+			width: 20px;
+			height: 20px;
+		}
+
+		ul {
+			display: flex;
+		}
+
+		li {
+			list-style-type: none;
+			transition: 0.3s ease 0s;
+			margin-left: 30px;
+
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
 
     .navigation-pc {
         margin: auto;

@@ -37,9 +37,6 @@
 			<li class="navigation-nav">
 				<p><a href="about.php">About</a></p>
 			</li>
-			<!-- <li class="navigation-nav">
-				<p><a href="color-therapy.php">Color Therapy</a></p>
-			</li> -->
 			<li class="navigation-nav">
 				<p><a href="http://mococon.shop-pro.jp/" target="_blank">Online&nbsp;shop</a></p>
 			</li>
@@ -52,20 +49,7 @@
 				<p><a href=" http://ws.formzu.net/fgen/S82910306" target="_blank">Contact</a>
 				</p>
 			</li>
-			<li class="navigation-nav nsn">
-				<p><a href="https://instagram.com/mayuanzai" target="_blank">Instagram</a>
-				</p>
-			</li>
-			<li class="navigation-nav">
-				<p><a href="https://www.facebook.com/mayu.anzai" target="_blank">Facebook</a>
-				</p>
-			</li>
-			<li class="navigation-nav">
-				<p><a href="https://twitter.com/mococon_" target="_blank">X</a>
-				</p>
-			</li>
-	</div>
-	</ul>
+		</ul>
 	</div>
 	<div class="nav">
 		<input id="drawer-checkbox" type="checkbox">
@@ -139,11 +123,11 @@
 					</li>
 				</ul>
 			</div>
-			<div class="nsn-icon-top">
+			<div class="nsn-icon-top-sp">
 				<ul>
-					<li><a href="https://www.facebook.com/mayu.anzai"><img src="common/img/sns/facebook_icon.svg" alt="anzaimayuのfacebook"></a></li>
-					<li><a href="https://www.instagram.com/mayuanzai"><img src="common/img/sns/insta_icon.svg" alt="anzaimayuのInstagram"></a></li>
-					<li><a href="https://twitter.com/mococon_"><img src="common/img/sns/x_icon.svg" alt="anzaimayuのTwitter"></a></li>
+					<li><a href="https://www.instagram.com/mayuanzai" target="_blank"><img src="common/img/sns/instagram_logo.png" alt="anzaimayuのInstagram"></a></li>
+					<li><a href="https://twitter.com/mococon_" target="_blank"><img src="common/img/sns/x_logo.png" alt="anzaimayuのTwitter"></a></li>
+					<li><a href="https://www.facebook.com/mayu.anzai" target="_blank"><img src="common/img/sns/facebook_logo.png" alt="anzaimayuのfacebook"></a></li>
 				</ul>
 			</div>
 		</div>
