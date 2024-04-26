@@ -51,23 +51,18 @@
 			<div class="news-first">
 
 				<div class="news_text">
-				    <p>◆◆◆ハレマルシェ・プレシャスマーケット◆◆◆</p>
-					<p>日時:2023年12月02(土)11:00〜19:00</p>
-					<p>場所:ルミネ有楽町1Fパッサージュ</p>
-				</div>
-				<div class="event_dm">
-					<img src="common/img/news/news_20231202.jpg" alt="イベントDM前">
+					<p>◆◆◆『青空個展』ブース214◆◆◆</p>
+					<p>日時:2024/04/27 11:00〜17:00</p>
+					<p>場所:東京ガーデンスクエア</p>
+					<div class="event_dm">
+						<img src="common/img/news/news_20240426.png" alt="イベントDM前">
+					</div>
+					<a href="https://www.aozorakoten.com/products/detail.php?product_id=2743#application-area" style="font-size: 14px;">https://www.aozorakoten.com/</a>
 				</div>
 				<div class="news_text">
-					<p>◆◆◆Teyney&nbsp;Teyney&nbsp;Felt&nbsp;POP&nbsp;UP&nbsp;SHOP!◆◆◆</p>
-					<p>2023年12月14日(木)~12月25日(月) 10:00-20:00</p>
-					<p>*最終日は19時まで</p>
-					<p>[会場]東京都武蔵野市吉祥寺本町2-3-1 東急百貨店 </p>
-					<p>吉祥寺店 1F イベントスペース</p>
-					<p>[TEL] 0422-21-5111</p>
-				</div>
-				<div class="event_dm">
-					<img src="common/img/news/news_20231214.jpg" alt="イベントDM前">
+					<p>◆◆◆カラーリーディングと雑貨の販売予定◆◆◆</p>
+					<p>日時:2024/5/30 10:30〜16:00頃</p>
+					<p>場所:手作りパンくぅさん店内（西武池袋線清瀬駅から徒歩7分）</p>
 				</div>
 				<div class="arrow-content"><a href="news.php" target="_blank">more</a></div>
 			</div>

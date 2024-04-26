@@ -5,9 +5,13 @@
 		<h1>News</h1>
 		<div class="news-archives">
 			<div class="tim-container">
+				<p>2023/12/2</p>
+				<p>ハレマルシェ・プレシャスマーケット</p>
+				<p>2023/12/4〜12/25</p>
+				<p>Teyney&nbsp;Teyney&nbsp;Felt&nbsp;POP&nbsp;UP&nbsp;SHOP!</p>
 				<p>2023/11/23</p>
 				<p>キヨセdeフェスタ&nbsp;清瀬駅北口アミュービル7階アミューホール</p>
-				<p>2021/11/23〜11/30</p>
+
 				<p>グランスタ東京「TEYNEY POP UP SHOP！」</p>
 				<p>2021/10/12～2021/10/17</p>
 				<p>「2021秋&nbsp;羊毛フィルト作品展vol.17」</p>

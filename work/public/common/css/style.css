@@ -634,7 +634,7 @@ h3 {
   margin-bottom: 20px;
 }
 .news-wrap .news-first .event_dm img {
-  width: 400px;
+  width: 50%;
   margin: 20px 10px 0 0;
   -webkit-box-shadow: 0 10px 25px 0 #BDBDBD;
           box-shadow: 0 10px 25px 0 #BDBDBD;
