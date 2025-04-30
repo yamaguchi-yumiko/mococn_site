@@ -49,20 +49,25 @@
 		<h2>News</h2>
 		<div class="news-wrap">
 			<div class="news-first">
-
 				<div class="news_text">
-					<p>◆◆◆『青空個展』ブース214◆◆◆</p>
-					<p>日時:2024/04/27 11:00〜17:00</p>
-					<p>場所:東京ガーデンスクエア</p>
+					<h3>◆◆◆クリエーターズマーケットvol.52◆◆◆</h3>
+					<p>日時:2025/06/21(sat.)・22(sun.)&nbsp;11:00〜18:00&nbsp;※両日参加 </p>
+					<p>場所:ポートメッセなごや2号館・3号館</p>
+					<p style="margin-top: 20px;">【MayuANZÏ_WORCS】</p>
+					<p>現在テーマにしている絶滅危惧の生きもの&想像して止まないオリジナルの生きものをマスコットや<br>模様にして雑貨を発表したいと思っています。</p>
+					<p style="margin-top: 15px;">カラーリーディングも生かしてたまに、色に意味がある作品も作ります。<br>久々の遠征なので準備がんばってます。(2025.4.2)</p>
 					<div class="event_dm">
-						<img src="common/img/news/news_20240426.png" alt="イベントDM前">
+						<img src="common/img/news/news_20250621.jpg" alt="イベントDM前">
 					</div>
-					<a href="https://www.aozorakoten.com/products/detail.php?product_id=2743#application-area" style="font-size: 14px;">https://www.aozorakoten.com/</a>
+					<a href="https://www.creatorsmarket.com/" target="_blank" style="font-size: 14px;">https://www.creatorsmarket.com/</a>
 				</div>
 				<div class="news_text">
-					<p>◆◆◆カラーリーディングと雑貨の販売予定◆◆◆</p>
-					<p>日時:2024/5/30 10:30〜16:00頃</p>
-					<p>場所:手作りパンくぅさん店内（西武池袋線清瀬駅から徒歩7分）</p>
+					<h3>◆◆◆DESIGN FESTA vol.61◆◆◆</h3>
+					<p>日時:2025/7/6(sun.)&nbsp;10:00〜18:00&nbsp;※日曜のみ出展 </p>
+					<p>場所:東京ビッグサイト西&南館</p>
+					<p style="margin-top: 20px;">【モココン(mococon)】</p>
+					<p>指のかたちの’モコ’をはじめオリジナルキャラクターのぬいぐるみ<br>マスコットやステーショナリー他、グッズの展示販売します。<br>ブースや詳細は後日snsで発表します。</p>
+					<p style="margin-top: 15px;"><a href="https://designfesta.com/" target="_blank" style="font-size: 14px;">https://designfesta.com/</a></p>
 				</div>
 				<div class="arrow-content"><a href="news.php" target="_blank">more</a></div>
 			</div>
